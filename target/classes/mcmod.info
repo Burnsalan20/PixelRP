@@ -1,0 +1,13 @@
+[
+    {
+        "modid": "pixelrp",
+        "name": "PixelRP",
+        "version": "1.0",
+        "dependencies": [
+            "spongeapi@7.2.0"
+        ],
+        "requiredMods": [
+            "spongeapi@7.2.0"
+        ]
+    }
+]

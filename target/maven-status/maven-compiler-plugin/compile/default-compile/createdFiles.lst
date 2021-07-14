@@ -1,0 +1,12 @@
+com\pixelrp\core\mechanic\protectionMechanic\ProtectionMechanic.class
+com\pixelrp\core\temp\PingCommand.class
+com\pixelrp\core\mechanic\safariMechanic\SafariMechanic.class
+com\pixelrp\core\utils\user\User.class
+com\pixelrp\core\utils\configuration\Configuration.class
+com\pixelrp\core\temp\TestCommand.class
+com\pixelrp\core\PixelRP.class
+com\pixelrp\core\mechanic\chatMechanic\ChatMechanic.class
+com\pixelrp\core\mechanic\MechanicManager.class
+com\pixelrp\core\utils\user\UserManager.class
+com\pixelrp\core\mechanic\Mechanic.class
+mcmod.info
