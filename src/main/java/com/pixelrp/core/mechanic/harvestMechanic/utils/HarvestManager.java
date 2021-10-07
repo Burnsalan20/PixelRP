@@ -96,8 +96,10 @@ public class HarvestManager {
     }
 
     public boolean setResourceBlock(String resourceName, Location location){
+        System.out.println("ResourceBlock called");
         for(String res : custom_Resources.keySet()){
-            if(res.equals(resourceName)){
+            System.out.println(res + ": Resource block listed");
+            if(res.equalsIgnoreCase(resourceName)){
                 active_Resources.put(new ResourceLocation("world", location.getBlockX(), location.getBlockY(), location.getBlockZ()), custom_Resources.get(res));
                 save();
                 return true;

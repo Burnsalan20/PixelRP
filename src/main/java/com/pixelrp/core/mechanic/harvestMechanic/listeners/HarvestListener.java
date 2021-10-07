@@ -1,7 +1,5 @@
 package com.pixelrp.core.mechanic.harvestMechanic.listeners;
 
-import com.pixelmonmod.pixelmon.blocks.PixelmonBlock;
-import com.pixelmonmod.pixelmon.config.PixelmonBlocks;
 import com.pixelrp.core.PixelRP;
 import com.pixelrp.core.mechanic.harvestMechanic.utils.HarvestManager;
 import com.pixelrp.core.mechanic.harvestMechanic.utils.Resource;
@@ -45,7 +43,7 @@ public class HarvestListener {
 
     @Listener
     public void onBlockBreak(ChangeBlockEvent.Break event){
-        TownMechanic townMechanic = (TownMechanic) PixelRP.instance.mechanicManager.getMechanic(4);
+ //       TownMechanic townMechanic = (TownMechanic) PixelRP.instance.mechanicManager.getMechanic(4);
         if(event.getSource() instanceof Player){
             Player player = (Player) event.getSource();
 

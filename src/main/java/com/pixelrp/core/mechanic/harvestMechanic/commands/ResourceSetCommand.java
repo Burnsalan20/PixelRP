@@ -38,7 +38,7 @@ public class ResourceSetCommand implements CommandExecutor {
             Player player = (Player) src;
             String resourceName = (String) args.getOne(KEY_RESOURCE).get();
             if(hm.isEditingResources(player)){
-                if(hm.getResourceEdits().get(player.getUniqueId().toString()) != null && hm.setResourceBlock(resourceName, hm.getResourceEdits().get(player.getUniqueId().toString()))){
+                if(hm.setResourceBlock(resourceName, hm.getResourceEdits().get(player.getUniqueId().toString()))){
                     player.sendMessage(Text.of(TextColors.AQUA, "You have set a resource block!"));
                 } else player.sendMessage(Text.of(TextColors.AQUA, "That resource name does not exist."));
             } else player.sendMessage(Text.of(TextColors.AQUA, "You are not in edit mode."));
